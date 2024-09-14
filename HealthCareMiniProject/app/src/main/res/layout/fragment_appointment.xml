@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_btn1"
+        android:gravity="center"
+        android:text="bt1"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/round_btn1"
+        android:gravity="center"
+        android:text="bt2"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/bt1"
+        app:layout_constraintTop_toBottomOf="@id/bt1" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/round_btn1"
+        android:gravity="center"
+        android:text="bt3"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/bt4"
+        app:layout_constraintStart_toEndOf="@id/bt1"
+        app:layout_constraintTop_toTopOf="@id/bt2"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/round_btn1"
+        android:gravity="center"
+        android:text="bt4"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/bt1"
+        app:layout_constraintTop_toBottomOf="@id/bt2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

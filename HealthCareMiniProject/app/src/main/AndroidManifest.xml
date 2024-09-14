@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+<!--    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+<!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <queries>
+    <package android:name="com.example.healthcareminiproject" />
+    </queries>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthCareMiniProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".doc_sign_in"
+            android:exported="true">
+            <!-- You can add intent-filter if needed -->
+        </activity>
+
+        <activity
+            android:name=".Sign_inActivity"
+            android:exported="true">
+            <!-- Add intent-filter if needed -->
+        </activity>
+
+        <activity
+            android:name=".Sign_upActivity"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".FirstPage"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".DashboardActivity"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".BookAppointment"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".dr_homepage"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".prescriptions"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".AppointmentRequestsActivity"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".patient_feedbacks"
+        android:exported="true">
+
+    </activity>
+
+        <activity android:name=".dr1"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".dr2"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".dr3"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".dr4"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".dr2_homepage"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".dr3_homepage"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".dr4_homepage"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".Pay"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".appoint"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".appoint2"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".appoint3"
+            android:exported="true">
+        </activity>
+
+        <activity android:name=".appoint4"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>
